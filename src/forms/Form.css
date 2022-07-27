@@ -1,0 +1,54 @@
+div{
+    margin: auto;
+}
+
+.form-container{
+    margin: a auto;
+    color: #999;
+    border-radius: 3px;
+    padding: 30px;
+    width: 300px;
+    background-color: white;
+    font-size: 0.7em;
+}
+
+input{
+    border: 0;
+    outline: none;
+}
+
+.form{
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.form:hover{
+    border-color: coral;
+}
+
+/**/
+
+.btn{
+    border-radius: 3.5px;
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+.btn-mora{
+    color: white;
+    background-color: darkmagenta;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-mora:hover{
+    background-color: rgb(226, 77, 226);
+}
+.btn-mora:active{
+    background-color: rgb(41, 128, 150);
+}
